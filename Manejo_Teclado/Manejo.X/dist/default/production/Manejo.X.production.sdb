@@ -1,0 +1,264 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"505 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"12 D:\Universidad\MPLAB\Manejo_Teclado\Manejo.X\lcd.c
+[v _Lcd_Port Lcd_Port `(v  1 e 1 0 ]
+"34
+[v _Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
+"43
+[v _Lcd_Clear Lcd_Clear `(v  1 e 1 0 ]
+"49
+[v _Lcd_Set_Cursor Lcd_Set_Cursor `(v  1 e 1 0 ]
+"70
+[v _Lcd_Init Lcd_Init `(v  1 e 1 0 ]
+"89
+[v _Lcd_Write_Char Lcd_Write_Char `(v  1 e 1 0 ]
+"105
+[v _Lcd_Write_String Lcd_Write_String `(v  1 e 1 0 ]
+"14 D:\Universidad\MPLAB\Manejo_Teclado\Manejo.X\main.c
+[v _Prender_Verde Prender_Verde `(v  1 e 1 0 ]
+"17
+[v _Apagar_Verde Apagar_Verde `(v  1 e 1 0 ]
+"20
+[v _Prender_Rojo Prender_Rojo `(v  1 e 1 0 ]
+"23
+[v _Apagar_Rojo Apagar_Rojo `(v  1 e 1 0 ]
+"26
+[v _Sonar Sonar `(v  1 e 1 0 ]
+"32
+[v _Bloqueo Bloqueo `(v  1 e 1 0 ]
+"46
+[v _main main `(i  1 e 2 0 ]
+"13 D:\Universidad\MPLAB\Manejo_Teclado\Manejo.X\teclado.c
+[v _Leer_tecla Leer_tecla `(uc  1 e 1 0 ]
+"228 C:/Program Files (x86)/Microchip/MPLABX/v5.40/packs/Microchip/PIC16Fxxx_DFP/1.2.33/xc8\pic\include\proc\pic16f887.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"290
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"352
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"1478
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"1540
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1602
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"4115
+[v _RB4 RB4 `VEb  1 e 0 @52 ]
+"4118
+[v _RB5 RB5 `VEb  1 e 0 @53 ]
+"4121
+[v _RB6 RB6 `VEb  1 e 0 @54 ]
+"4133
+[v _RC0 RC0 `VEb  1 e 0 @56 ]
+"4136
+[v _RC1 RC1 `VEb  1 e 0 @57 ]
+"4139
+[v _RC2 RC2 `VEb  1 e 0 @58 ]
+"4187
+[v _RD2 RD2 `VEb  1 e 0 @66 ]
+"4190
+[v _RD3 RD3 `VEb  1 e 0 @67 ]
+"4193
+[v _RD4 RD4 `VEb  1 e 0 @68 ]
+"4196
+[v _RD5 RD5 `VEb  1 e 0 @69 ]
+"4199
+[v _RD6 RD6 `VEb  1 e 0 @70 ]
+"4202
+[v _RD7 RD7 `VEb  1 e 0 @71 ]
+"358 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\doprnt.c
+[v _dpowers dpowers `DC[5]ui  1 s 10 dpowers ]
+"39 D:\Universidad\MPLAB\Manejo_Teclado\Manejo.X\main.c
+[v _Try Try `i  1 e 2 0 ]
+[v _True True `i  1 e 2 0 ]
+"40
+[v _X X `i  1 e 2 0 ]
+[v _XD XD `i  1 e 2 0 ]
+[v _XC XC `i  1 e 2 0 ]
+[v _XM XM `i  1 e 2 0 ]
+"41
+[v _Clave Clave `i  1 e 2 0 ]
+[v _Tecla Tecla `i  1 e 2 0 ]
+"42
+[v _Bandera Bandera `i  1 e 2 0 ]
+"11 D:\Universidad\MPLAB\Manejo_Teclado\Manejo.X\teclado.c
+[v _x x `i  1 e 2 0 ]
+"46 D:\Universidad\MPLAB\Manejo_Teclado\Manejo.X\main.c
+[v _main main `(i  1 e 2 0 ]
+{
+"48
+[v main@Cadena Cadena `[20]uc  1 a 20 17 ]
+"177
+} 0
+"505 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\doprnt.c
+[v _sprintf sprintf `(i  1 e 2 0 ]
+{
+[v sprintf@sp sp `*.4uc  1 a 1 wreg ]
+"545
+[v sprintf@val val `ui  1 a 2 9 ]
+"512
+[v sprintf@c c `uc  1 a 1 12 ]
+"521
+[v sprintf@prec prec `c  1 a 1 8 ]
+"525
+[v sprintf@flag flag `uc  1 a 1 7 ]
+"507
+[v sprintf@ap ap `[1]*.4v  1 a 1 6 ]
+"505
+[v sprintf@sp sp `*.4uc  1 a 1 wreg ]
+[v sprintf@f f `*.24DCuc  1 p 1 0 ]
+"550
+[v sprintf@sp sp `*.4uc  1 a 1 11 ]
+"1567
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 13 ]
+"5
+[v ___lwmod@divisor divisor `ui  1 p 2 8 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 10 ]
+"25
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 5 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 7 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 0 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 2 ]
+"30
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
+"26 D:\Universidad\MPLAB\Manejo_Teclado\Manejo.X\main.c
+[v _Sonar Sonar `(v  1 e 1 0 ]
+{
+"31
+} 0
+"14
+[v _Prender_Verde Prender_Verde `(v  1 e 1 0 ]
+{
+"16
+} 0
+"20
+[v _Prender_Rojo Prender_Rojo `(v  1 e 1 0 ]
+{
+"22
+} 0
+"13 D:\Universidad\MPLAB\Manejo_Teclado\Manejo.X\teclado.c
+[v _Leer_tecla Leer_tecla `(uc  1 e 1 0 ]
+{
+"62
+} 0
+"105 D:\Universidad\MPLAB\Manejo_Teclado\Manejo.X\lcd.c
+[v _Lcd_Write_String Lcd_Write_String `(v  1 e 1 0 ]
+{
+"107
+[v Lcd_Write_String@i i `i  1 a 2 10 ]
+"105
+[v Lcd_Write_String@a a `*.26uc  1 p 2 5 ]
+"110
+} 0
+"89
+[v _Lcd_Write_Char Lcd_Write_Char `(v  1 e 1 0 ]
+{
+[v Lcd_Write_Char@a a `uc  1 a 1 wreg ]
+"91
+[v Lcd_Write_Char@y y `uc  1 a 1 3 ]
+[v Lcd_Write_Char@temp temp `uc  1 a 1 2 ]
+"89
+[v Lcd_Write_Char@a a `uc  1 a 1 wreg ]
+"92
+[v Lcd_Write_Char@a a `uc  1 a 1 4 ]
+"103
+} 0
+"49
+[v _Lcd_Set_Cursor Lcd_Set_Cursor `(v  1 e 1 0 ]
+{
+[v Lcd_Set_Cursor@a a `uc  1 a 1 wreg ]
+"51
+[v Lcd_Set_Cursor@temp temp `uc  1 a 1 10 ]
+[v Lcd_Set_Cursor@y y `uc  1 a 1 9 ]
+[v Lcd_Set_Cursor@z z `uc  1 a 1 8 ]
+"49
+[v Lcd_Set_Cursor@a a `uc  1 a 1 wreg ]
+[v Lcd_Set_Cursor@b b `uc  1 p 1 4 ]
+"52
+[v Lcd_Set_Cursor@a a `uc  1 a 1 7 ]
+"68
+} 0
+"70
+[v _Lcd_Init Lcd_Init `(v  1 e 1 0 ]
+{
+"87
+} 0
+"43
+[v _Lcd_Clear Lcd_Clear `(v  1 e 1 0 ]
+{
+"47
+} 0
+"34
+[v _Lcd_Cmd Lcd_Cmd `(v  1 e 1 0 ]
+{
+[v Lcd_Cmd@a a `uc  1 a 1 wreg ]
+[v Lcd_Cmd@a a `uc  1 a 1 wreg ]
+"36
+[v Lcd_Cmd@a a `uc  1 a 1 3 ]
+"41
+} 0
+"12
+[v _Lcd_Port Lcd_Port `(v  1 e 1 0 ]
+{
+[v Lcd_Port@a a `uc  1 a 1 wreg ]
+[v Lcd_Port@a a `uc  1 a 1 wreg ]
+"14
+[v Lcd_Port@a a `uc  1 a 1 0 ]
+"33
+} 0
+"32 D:\Universidad\MPLAB\Manejo_Teclado\Manejo.X\main.c
+[v _Bloqueo Bloqueo `(v  1 e 1 0 ]
+{
+"37
+} 0
+"17
+[v _Apagar_Verde Apagar_Verde `(v  1 e 1 0 ]
+{
+"19
+} 0
+"23
+[v _Apagar_Rojo Apagar_Rojo `(v  1 e 1 0 ]
+{
+"25
+} 0
